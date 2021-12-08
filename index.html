@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COOKIE & SESSION & LOCALSTORAGE</title>
+</head>
+<style>div{border: solid; padding: 10px;}</style>
+<body>
+  <div>
+    <h1>Session</h1>
+    <p>
+      Anda sudah klik sebanyak <span id="count">0</span> kali
+    </p>
+    <button id="button">Klik Sini!</button>
+  </div>
+  <div>
+    <h1>Local Storage</h1>
+    <p>
+      Anda sudah klik sebanyak <span id="hitung">0</span> kali
+    </p>
+    <button id="tombol-hitung">Hitung!</button>
+    <button id="tombol-hapus">Hapus!</button>
+  </div>
+  <div>
+    <h1>Cookies</h1>
+    <button id="tombol-hitung" onclick="tryCookies()">Start playing cookies</button>
+    <p id="cookies"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
